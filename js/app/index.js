@@ -1,6 +1,6 @@
 (() => {
   function fetchData() {
-    const navData = app.store.getJson('/data/data.json');
+    const navData = app.store.getJson('/evergreenjs/data/data.json');
 
     navData.then(data => app.store.setValue('data', data));
   }

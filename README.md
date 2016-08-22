@@ -32,4 +32,35 @@ https://imagentleman.github.io/evergreenjs/
 
 ## Overview
 
+### File Structure
+
+    /bin
+      server.js
+    /src
+      /data
+        data.json
+      /js
+        /app
+          /components
+            content.js
+            headline.js
+          index.js
+        /core
+          router.js
+          store.js
+          view.js
+        config.js
+        registry.js
+      /pages
+        another-page.html
+        main.html
+      /styles
+        main.css
+        variables.css
+      favicon.ico
+      index.html
+    /tasks
+      build.js
+      copy.js
+
 TODO: Add overview of file structure and how to write a component

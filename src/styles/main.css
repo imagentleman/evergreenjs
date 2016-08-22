@@ -1,0 +1,51 @@
+@import 'variables.css';
+
+/* Reset and default styles */
+
+html {
+  font-size: var(--base-font-size);
+}
+
+main {
+  padding: 5rem;
+}
+
+body,
+body /deep/ h1 {
+  margin: 0;
+}
+
+body /deep/ h1 {
+  font-family: sans-serif;
+  font-size: 4.4rem;
+  line-height: 4.8rem;
+}
+
+body /deep/ p {
+  font-family: serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+a {
+  color: var(--green);
+  font-size: 1.2rem;
+}
+
+/* Desktop Overrides */
+
+@media (min-width: 768px) {
+  html {
+    font-size: var(--desktop-base-font-size);
+  }
+
+  body /deep/ h1 {
+    font-size: 12rem;
+    line-height: 13.2rem;
+  }
+
+  body /deep/ p {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+}

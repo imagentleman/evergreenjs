@@ -1,0 +1,21 @@
+{
+  "name": "EvergreenJS",
+  "description": "Just a front end framework (usando lo último en guarachas)",
+  "version": "0.1.0",
+  "authors": [
+    "imagentleman <imagentlemail@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/imagentleman/evergreenjs",
+  "bugs": {
+    "url": "https://github.com/imagentleman/evergreenjs/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && npm run server",
+    "clean": "node ./tasks/clean.js",
+    "copy": "node ./tasks/copy.js",
+    "server": "node ./bin/server.js",
+    "build": "npm run clean && npm run copy"
+  }
+}

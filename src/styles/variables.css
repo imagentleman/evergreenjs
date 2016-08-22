@@ -1,0 +1,7 @@
+:root {
+  --animation-timing: cubic-bezier(0, 1, .618, 1);
+  --base-font-size: 10px;
+  --dark-gray: #666;
+  --desktop-base-font-size: 15px;
+  --green: #70ef00;
+}

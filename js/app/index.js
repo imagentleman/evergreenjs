@@ -11,9 +11,9 @@
   }
 
   function init() {
-    const Router = require('/js/core/router.js');
-    const Store = require('/js/core/store.js');
-    const View = require('/js/core/view.js');
+    const Router = require('/evergreenjs/js/core/router.js');
+    const Store = require('/evergreenjs/js/core/store.js');
+    const View = require('/evergreenjs/js/core/view.js');
 
     app.store = new Store();
     app.router = new Router(app.ROUTES);
